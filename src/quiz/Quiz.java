@@ -21,7 +21,7 @@ public class Quiz {
         q[9] = "10.Woher kommen Sie?\na.Ich wohne in Berlin.\n" +
                 "b.Ich komme bald nach Berlin.\nc.Regina kommt auch aus München.\nd.Aus Deutschland, aus Berlin.";
         String[] a = {"d", "b", "c", "b", "a", "c", "a", "b", "a", "d"};
-        String welcome = "Hello! Welcome to our German quiz. If you want to beginn, press S, exit - press E.";
+        String welcome = "Hello! Welcome to our German quiz. If you want to beginn, press s, exit - press e.";
         out.println(welcome);
         Scanner read = new Scanner(in);
         String start = read.nextLine();
